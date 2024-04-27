@@ -1,2 +1,2 @@
 # CS6910_Assignement_3
-RNN
+Use RNN to do tranliteration form hindi to hinglish
