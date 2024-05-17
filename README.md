@@ -27,7 +27,7 @@ pip install --upgrade pytorch
 - Just an FYI you need to have a decent GPU setup to run this on your PC. saying it again as you really do.
 
 ## Dataset used for Experiments
-- [Aksharantar dataset](https://drive.google.com/file/d/1uRKU4as2NlS9i8sdLRS1e326vQRdhvfw/view) has been used for the experiments.
+- [Aksharantar dataset](https://drive.google.com/file/d/1tGIO4-IPNtxJ6RQMmykvAfY_B0AaLY5A/view?usp=drive_link) has been used for the experiments.
 
 ## Vanilla Seq2Seq
 Followings are the Hyperparameters used in this part
