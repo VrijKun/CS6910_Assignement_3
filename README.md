@@ -1,7 +1,7 @@
 # CS6910_Assignement_3
 Use RNN to do tranliteration form hindi to hinglish
 
-##Prerequisites
+## Prerequisites
 ```
 wget
 python 3.12
@@ -29,7 +29,7 @@ pip install --upgrade pytorch
 ## Dataset used for Experiments
 - [Aksharantar dataset](https://drive.google.com/file/d/1uRKU4as2NlS9i8sdLRS1e326vQRdhvfw/view) has been used for the experiments.
 
-##Vanilla Seq2Seq
+## Vanilla Seq2Seq
 Followings are the Hyperparameters used in this part
 | S. No.        | Hyperparameters       |  Values/types           |
 | ------------- | ----------------------|-------------------------|
@@ -39,7 +39,7 @@ Followings are the Hyperparameters used in this part
 |4.             | Dropout               | 0,0.2,0.4, 0.6          | 
 |5.             | larning rate          | 0.001, 0.0001           |
 
-##Attention Seq2Seq
+## Attention Seq2Seq
 Followings are the Hyperparameters used in this part
 | S. No.        | Hyperparameters       |  Values/types           |
 | ------------- | ----------------------|-------------------------|
@@ -48,10 +48,10 @@ Followings are the Hyperparameters used in this part
 |3.             | attention_dimension     | [64, 128, 256]         |
 |4.             | dropout              | [0.3,0.5,0.6]          | 
 
-#Vanilla Seq2Seq runs and code can be found [Here](https://github.com/VrijKun/CS6910_Assignement_3/blob/1be1a570d7255405d7c3d7ba9adaf52787b0a887/DL_Assignement_3_Vanilla_runs.ipynb)
+## Vanilla Seq2Seq runs and code can be found [Here](https://github.com/VrijKun/CS6910_Assignement_3/blob/1be1a570d7255405d7c3d7ba9adaf52787b0a887/DL_Assignement_3_Vanilla_runs.ipynb)
 - Just run the parts marked with Vanilla 
 
-#Attention Seq2Seq runs and code can be found [Here](https://github.com/VrijKun/CS6910_Assignement_3/blob/1be1a570d7255405d7c3d7ba9adaf52787b0a887/DL_Assignement_3_local_run.ipynb)
+## Attention Seq2Seq runs and code can be found [Here](https://github.com/VrijKun/CS6910_Assignement_3/blob/1be1a570d7255405d7c3d7ba9adaf52787b0a887/DL_Assignement_3_local_run.ipynb)
 - Just run the parts marked with Attention 
 
 The wandb report for this assignment can be found [here]().
