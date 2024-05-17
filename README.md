@@ -52,9 +52,22 @@ Followings are the Hyperparameters used in this part
 - Just run the parts marked with Vanilla 
 
 ## Attention Seq2Seq runs and code can be found [Here](https://github.com/VrijKun/CS6910_Assignement_3/blob/1be1a570d7255405d7c3d7ba9adaf52787b0a887/DL_Assignement_3_local_run.ipynb)
-- Just run the parts marked with Attention 
+- Just run the parts marked with Attention
 
-The wandb report for this assignment can be found [here]().
+## Evaluation files
+- Download the files for Attention [here](https://github.com/VrijKun/CS6910_Assignement_3/blob/4e480fb61e51f59084be2818b192ffd5160e3d9f/Evaluation_file_Attension_model.py) and for Vanilla [here](https://github.com/VrijKun/CS6910_Assignement_3/blob/4e480fb61e51f59084be2818b192ffd5160e3d9f/Evaluation_file_Vanilla_model.py)
+- Please define/change path of the Data on line 53, 54 and 55 based on location of your data on your PC.
+- Whithout defining the path you may run into some error.
+
+## Collab files are for Vanilla runs [here](https://github.com/VrijKun/CS6910_Assignement_3/blob/4e480fb61e51f59084be2818b192ffd5160e3d9f/DL_Assignement_3_Vanilla_runs.ipynb) Attention runs   [here](https://github.com/VrijKun/CS6910_Assignement_3/blob/4e480fb61e51f59084be2818b192ffd5160e3d9f/DL_Assignement_3_local_run.ipynb) run and word level acuracy  [here](https://github.com/VrijKun/CS6910_Assignement_3/blob/4e480fb61e51f59084be2818b192ffd5160e3d9f/DL_Assignement_3.ipynb) .
+
+## CVS file:
+- CSV file containing vanilla seq2seq predictions can be found [here](https://github.com/VrijKun/CS6910_Assignement_3/blob/4e480fb61e51f59084be2818b192ffd5160e3d9f/Predictions_vanilla_.csv) 
+- CSV file containing attention seq2seq predictions can be found [here](https://github.com/VrijKun/CS6910_Assignement_3/blob/4e480fb61e51f59084be2818b192ffd5160e3d9f/Predictions_attention_.csv) 
+
+## Report
+The wandb report for this assignment can be found [here](https://wandb.ai/ed23d015/DL_Assignment_3/reports/ED23D015-CS6910_Assignment-3--Vmlldzo3NzE5MDc3?accessToken=54rzmc4p583s4owz56j05mw2115rp01u8o0nmj8b383xvwgc6ukbiy94qrjrli32).
+
 ## Author
 [Vrijesh Kunwar](https://github.com/VrijKun)
 ED23D015
